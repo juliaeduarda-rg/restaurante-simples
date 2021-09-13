@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../pics/pizza-top-view-fast-food-vegetarian-pizza.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .menu{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+header .menu li{
+    display: inline-block
+}
+
+header .menu a{
+    color: white;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 200ms;
+}
+
+header .menu .ativo, header .menu a:hover{
+    color: #444;
+    background-color: white;
+}
+
+.principal{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.principal h2{
+    color: white;
+    font-size: 45px;
+}
+
+.principal .links a{
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 20;
+}
+
+.principal .links a:hover{
+    color: #444;
+    background-color: white;
+    transition: 200ms;
+}
+
+.logo{
+    background-image: url(../pics/free-fire-png-logo-115690680812oyamxllpc-removebg-preview.png);
+    background-size: 70px;
+    background-position: cover;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
